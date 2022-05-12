@@ -1,16 +1,26 @@
+body {
+  background-color: rgb(73, 75, 73);
+}
+
 .container {
+  border-radius: 35px;
   max-width: 400px;
-  margin: 10vh auto 0 auto;
-  box-shadow: 0px 0px 43px 17px rgb(177, 174, 174);
-  background-color: #8e947f;
+  margin: 8vh auto 0 auto;
+  box-shadow: 0px 0px 43px 17px rgb(111, 106, 106);
+  background-color: #2a301a;
+  padding: 20px;
 }
 
 #display {
+  border: 1px solid rgb(247, 240, 240);
+  color: white;
   text-align: right;
   height: 50px;
   line-height: 70px;
   padding: 16px 8px;
   font-size: 25px;
+  margin-bottom: 10px;
+  border-radius: 10px;
 }
 
 .buttons {
@@ -28,11 +38,13 @@
 .button {
   line-height: 90px;
   text-align: center;
+  color: white;
   font-size: 25px;
   cursor: pointer;
 }
 
 #equal {
+  border: 1px solid #999;
   background-color: rgb(114, 114, 118);
   color: white;
 }
